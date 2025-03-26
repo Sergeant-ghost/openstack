@@ -48,7 +48,7 @@ If you have your own OpenStack repository or a fork, you can configure DevStack 
 
 - [DevStack Documentation](https://docs.openstack.org/devstack/latest/)
 - [OpenStack Official Site](https://www.openstack.org/)
-- [Your GitHub Repository](https://github.com/Sergeant-ghost/openstack.git)
+- [My GitHub Repository](https://github.com/Sergeant-ghost/openstack.git)
 
 ---
 
