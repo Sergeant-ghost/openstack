@@ -1,4 +1,5 @@
-Certainly! Here's the concise DevStack documentation with specified OS versions and official links for references:
+This repository aims to make the OpenStack installation process more accessible, especially for those new to the platform. By following the provided instructions, users can quickly deploy an OpenStack cloud environment for development and testing purposes.
+
 ---
 
 DevStack should be run as a non-root user with `sudo` enabled. Standard logins to cloud images such as “ubuntu” or “cloud-user” are usually fine.
