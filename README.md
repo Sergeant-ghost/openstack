@@ -1,4 +1,4 @@
-This repository aims to make the OpenStack installation process more accessible, especially for those new to the platform. By following the provided instructions, users can quickly deploy an OpenStack cloud environment for development and testing purposes.
+### This repository aims to make the OpenStack installation process more accessible, especially for those new to the platform. By following the provided instructions, users can quickly deploy an OpenStack cloud environment for development and testing purposes.
 
 ---
 
@@ -44,52 +44,16 @@ If you have your own OpenStack repository or a fork, you can configure DevStack 
    ```bash
    ./stack.sh
    ```
+3. **Access OpenStack**:
+   - **Horizon**: `http://myhost/`
+   - **Keystone**: `http://myhost/identity/v3/`
+   - **CLI**: Source `openrc` and use OpenStack commands.
 
 ### Official Links
 
 - [DevStack Documentation](https://docs.openstack.org/devstack/latest/)
 - [OpenStack Official Site](https://www.openstack.org/)
 - [My GitHub Repository](https://github.com/Sergeant-ghost/openstack.git)
-
----
-
-This version includes instructions for using your specific GitHub repository with DevStack.
-
-
-### Installation Steps
-
-1. **Clone DevStack Repository**:
-   ```bash
-   git clone https://opendev.org/openstack/devstack.git
-   cd devstack
-   ```
-
-2. **Create and Configure `local.conf`**:
-   ```bash
-   nano local.conf
-   ```
-   or
-- Set passwords and customize options in `local.conf`.
-Example configuration:
-```[[local|localrc]]
-ADMIN_PASSWORD=secret
-DATABASE_PASSWORD=$ADMIN_PASSWORD
-RABBIT_PASSWORD=$ADMIN_PASSWORD
-SERVICE_PASSWORD=$ADMIN_PASSWORDConfigure local.conf:
-```
-or use sammple file  
-   ```bash
-   cp samples/local.conf .
-   ```
-4. **Run DevStack**:
-   ```bash
-   ./stack.sh
-   ```
-
-5. **Access OpenStack**:
-   - **Horizon**: `http://myhost/`
-   - **Keystone**: `http://myhost/identity/v3/`
-   - **CLI**: Source `openrc` and use OpenStack commands.
 
 ### Customization
 
