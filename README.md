@@ -107,6 +107,6 @@ or use sammple file
 
 ---
 
-This version includes the supported OS versions and official links for further reference.Certainly! Here's the concise DevStack documentation with specified OS versions and official links for references:
+This version includes the supported OS versions and official links for further reference. Certainly! Here's the concise DevStack documentation with specified OS versions and official links for references.DevStack is a tool that deploys an OpenStack cloud for quick development and testing. This repository is a clone of the official OpenStack repository.
 
 ---
